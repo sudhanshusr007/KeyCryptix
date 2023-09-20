@@ -41,6 +41,38 @@ To get started with KeyCryptix, follow these steps:
 - **Generating a Password:**
   Click on the "Generate Password" button to create a strong and unique password for a new entry.
 
+Certainly! Here's the updated contribution section in the README file:
+
+---
+
 ## Contributing
 
-If you'd like to contribute to KeyCryptix, please follow our [contribution guidelines](CONTRIBUTING.md).
+If you'd like to contribute to this project, please follow these guidelines:
+
+1. **Fork the Repository:**
+   Fork the repository by clicking the "Fork" button on the top right of the repository page. This creates a copy of the repository in your GitHub account.
+
+2. **Create a New Branch:**
+   Create a new branch for your feature:
+   ```
+   git checkout -b feature-name
+   ```
+
+3. **Make Your Changes:**
+   Make the necessary changes and additions for the feature you're working on. Ensure your code follows the project's coding conventions.
+
+4. **Commit Your Changes:**
+   Commit your changes with a descriptive commit message:
+   ```
+   git commit -m 'Add some feature'
+   ```
+
+5. **Push to the Branch:**
+   Push your changes to the branch in your forked repository:
+   ```
+   git push origin feature-name
+   ```
+
+6. **Submit a Pull Request:**
+   Go to the original repository and click on the "New Pull Request" button. Select your branch and describe the changes you've made. Submit the pull request for review.
+
