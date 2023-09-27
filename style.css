@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-weight: 900;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 13px;
+}
+
+table{
+    border: 2px solid black;
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+}
+
+h1,h2,h3{
+    margin: 23px;;
+}
+
+.butn{
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+}
+
+#alert{
+    display: none;
+}
