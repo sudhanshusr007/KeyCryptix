@@ -3,11 +3,17 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav {
     background-color: black;
     color: gray;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 nav .logo {
@@ -84,7 +90,10 @@ body{
 
 .contactUs{
     background-color: black;
-    width: 100%;
+    color: white;
+    display: flex;
+    padding: 10px 13px;
+    justify-content: space-between;
 }
 
 
@@ -105,4 +114,33 @@ body{
         width: 90%; /* Reduce width for smaller screens */
     }
     
+}
+
+.cuLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+#git{
+    color: gray; font-size: 2em;
+}
+
+#git:hover{
+    color: white;
+}
+
+#x{
+    color:gray; font-size: 2em;
+}
+
+#x:hover{
+    color: white;
+}
+
+#linkedIn{
+    color:gray; font-size: 2em;
+}
+
+#linkedIn:hover{
+    color: white;
 }
