@@ -2,6 +2,19 @@
 
 KeyCryptix is a user-friendly and secure password manager that helps you organize and manage your passwords in a safe and efficient manner.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+
+## Introduction
+
+KeyCryptix is a powerful yet user-friendly password manager designed to help you securely store and manage your passwords. It employs advanced encryption algorithms to keep your sensitive data safe and easily accessible whenever you need it.
+
 ## Features
 
 - **Password Encryption**: KeyCryptix encrypts your passwords using advanced encryption algorithms to ensure they are securely stored.
@@ -41,9 +54,13 @@ To get started with KeyCryptix, follow these steps:
 - **Generating a Password:**
   Click on the "Generate Password" button to create a strong and unique password for a new entry.
 
-Certainly! Here's the updated contribution section in the README file:
+## Technologies Used
 
----
+KeyCryptix is built using the following technologies:
+
+- **HTML**: Provides the structure and content of the website.
+- **CSS**: Styles the website, ensuring an appealing design.
+- **JavaScript**: Enables dynamic interactions and real-time password management.
 
 ## Contributing
 
@@ -75,4 +92,3 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 6. **Submit a Pull Request:**
    Go to the original repository and click on the "New Pull Request" button. Select your branch and describe the changes you've made. Submit the pull request for review.
-
