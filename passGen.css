@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a premium sans-serif font */
+    background-color: #f2f2f2; /* Light gray background color */
+    color: #333333; /* Dark gray text color */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto; /* Center the container vertically and horizontally */
+    padding: 50px; /* Increased padding for more height */
+    border: 1px solid #cccccc; /* Light gray border color */
+    border-radius: 8px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333333; /* Dark gray text color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333; /* Dark gray text color */
+}
+
+input[type="number"],
+input[type="text"],
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc; /* Light gray border color */
+    border-radius: 5px;
+    background-color: #f2f2f2; /* Light gray background color */
+    color: #333333; /* Dark gray text color */
+}
+
+button {
+    background-color: #ffffff; /* White background color */
+    color: #333333; /* Dark gray text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button hover effect */
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Lighter gray background color on hover */
+}
+
+.output-container {
+    margin-top: 20px;
+    position: relative;
+}
+
+.output {
+    width: 80%; /* Adjusted width for the output box */
+    height: 60px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f2f2f2; /* Light gray background color for output box */
+    color: #333333; /* Dark gray text color */
+    border: 1px solid #cccccc; /* Light gray border color */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    position: relative;
+    margin: 0 auto; /* Center the output box horizontally */
+    text-align: center; /* Align text to the center */
+}
+
+#copy-btn {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* White color for copy button */
+    color: #333333; /* Dark gray text color */
+    border: none;
+    border-radius: 0 0 5px 5px; /* Rounded bottom corners */
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button hover effect */
+}
+
+#copy-btn:hover {
+    background-color: #f0f0f0; /* Lighter gray background color on hover */
+}
+
+#crack-time {
+    width: 100%;
+    height: 50px; /* Fixed height for the crack time div */
+    margin-top: 10px;
+    color: #333333; /* Dark gray text color */
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 70px 20px; /* Decreased padding for smaller screens */
+    }
+    .output {
+        height: 50px; /* Decreased height for smaller screens */
+        padding: 30px;
+    }
+    #copy-btn {
+        bottom: -30px; /* Adjusted position for smaller screens */
+    }
+}

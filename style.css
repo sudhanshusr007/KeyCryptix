@@ -14,6 +14,8 @@ nav {
     justify-content: space-between;
     position: sticky;
     top: 0;
+    width: 100%;
+    
 }
 
 nav .logo {
@@ -144,3 +146,22 @@ body{
 #linkedIn:hover{
     color: white;
 }
+
+.generate-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .generate-link:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+  }
+  
+  
